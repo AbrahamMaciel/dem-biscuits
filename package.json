@@ -1,0 +1,26 @@
+{
+  "name": "simon-says",
+  "version": "1.0.0",
+  "description": "A simple simon says game",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbrahamMaciel/dem-biscuits.git"
+  },
+  "keywords": [
+    "game",
+    "simon-says"
+  ],
+  "author": "Abraham Fernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbrahamMaciel/dem-biscuits/issues"
+  },
+  "homepage": "https://github.com/AbrahamMaciel/dem-biscuits#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  }
+}
