@@ -1,2 +1,3 @@
-# dem-biscuits
-Just a Repo for learning.
+# simon-says
+
+A simple simons says game with some limitations.
