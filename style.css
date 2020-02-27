@@ -1,0 +1,47 @@
+html {
+    background-image: url("img/background.jpg");
+    background-size: cover;
+}
+
+html, body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.keys {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Odibee Sans';
+    font-size: 1.3rem;
+}
+
+.key {
+    border: 2px solid rgb(255, 55, 55);
+    border-radius: 5px;
+    margin: 1rem;
+    padding: 1rem .5rem;
+    width: 100px;
+    text-align: center;
+    color:rgb(253, 237, 8);
+    transition: all 0.07s;
+    background: rgba(0, 0, 0, 0.4);
+    text-transform: uppercase;
+}
+
+kbd {
+    display: block;
+    font-size: 3rem;
+    font-family: 'Special Elite' ;
+    color: rgb(106, 241, 106);
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #fffb00;
+    box-shadow: 0 0 10px #ffc600;
+}
