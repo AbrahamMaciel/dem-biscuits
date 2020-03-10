@@ -1,0 +1,29 @@
+html {
+    /* margin: .5rem; */
+    height: 100%;
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+}
+
+.board {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.square {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* font-size: 3.5rem; */
+    border: .15rem solid black;
+}
+
+.color {
+    height: 100%;
+    width: 100%;
+}

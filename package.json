@@ -1,0 +1,22 @@
+{
+  "name": "memotest",
+  "version": "1.0.0",
+  "description": "Simple memory game",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbrahamMaciel/dem-biscuits.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Fernandez Abraham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbrahamMaciel/dem-biscuits/issues"
+  },
+  "homepage": "https://github.com/AbrahamMaciel/dem-biscuits#readme"
+}
