@@ -4,7 +4,9 @@
   "description": "Simple memory game",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress--run": "cypress run",
+    "cypress--dev": "cypress open"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/AbrahamMaciel/dem-biscuits/issues"
   },
-  "homepage": "https://github.com/AbrahamMaciel/dem-biscuits#readme"
+  "homepage": "https://github.com/AbrahamMaciel/dem-biscuits#readme",
+  "dependencies": {
+    "cypress": "^4.1.0"
+  }
 }
