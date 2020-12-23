@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange Rates</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+<nav class="navbar navbar-light bg-light">  
+      <span class="navbar-brand mb-0 h1">
+        <h3>Exchange-Rates</h3>
+      </span>
+      <ul class="navbar-nav">
+        <div class="spinner-border ml-0 d-none" role="status">
+          <span class="sr-only">Loading...</span>
+        </div>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <form class="form-inline my-2 my-lg-0">
+          <span class="label pr-3">Search by date</span>
+          <input class="form-control mr-sm-2" type="date" id="dateInput" placeholder="Search" aria-label="Search">
+        </form>
+      </ul>
+  </div>
+</nav>
+
+<div class="container-fluid app">
+    <div class="row">
+        <div class="col" id="currencies"></div>
+        <div class="col" id="rates">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Currency</th>
+                <th scope="col">Rates</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">HOLA</th>
+                <td>CACA</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+    </div>
+</div>
+    
+    
+</body>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="src/index.js"></script>
+</html>

@@ -1,0 +1,28 @@
+{
+  "name": "exchange-rate",
+  "version": "1.0.0",
+  "description": "for learning API's basics",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbrahamMaciel/dem-biscuits.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbrahamMaciel/dem-biscuits/issues"
+  },
+  "homepage": "https://github.com/AbrahamMaciel/dem-biscuits#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.15.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
