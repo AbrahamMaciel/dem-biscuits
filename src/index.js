@@ -27,6 +27,7 @@ function getSelectedDate() {
 
 function getRates(base = 'EUR', date = 'latest') {
   const BASE_URL = 'https://api.exchangeratesapi.io';
+  console.log(`<!fetching> date: ${date}, base: ${base}`);
   return fetch(`${BASE_URL}/${date}?base=${base}`)
     .then((response) => response.json())
     .then((response) => response.rates)
@@ -80,7 +81,7 @@ function showCurrenciesList(currencies) {
     $item.textContent = base;
     $item.type = 'button';
     $item.dataset.base = base;
-    // aca me faltaria agregar un event listener para que se pueda reseleccionar monedas lo hago dsp
+
     $item.addEventListener('click', () => {
       updateButtonState($item);
       updateRatesList();
@@ -94,17 +95,21 @@ function getCurrencies() {
   return getRates().then((result) => Object.keys(result).concat('EUR'));
 }
 
-function configInputFecha() {
+function configInputDate() {
   const $date = document.querySelector('#dateInput');
   const today = (new Date()).toISOString().split('T')[0];
   $date.setAttribute('max', today);
-  $date.addEventListener('change', update);
+  $date.addEventListener('change', () => {
+    updateRatesList();
+  });
 }
 
 function initialize() {
   getCurrencies().then((currencies) => {
     showCurrenciesList(currencies);
   });
+
+  configInputDate();
 }
 
 initialize();
